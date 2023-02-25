@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+        <title>LoveCalculator2023</title>
+<script>
+let x= (Math.random())*50;
+x= (Math.floor(x))+50;
+
+function love(){
+
+    if(x<75){
+  alert("Your lovescore is " + x + "% "+ " your love is like PDAPC, balablu");
+  
+}else{
+  alert("Your lovescore is " + x + "% "+ " your love is like LP, Peter Obi and the Nigerian youth!");
+}
+
+
+}
+</script>
+
+</head>
+
+<body>
+
+    <h1>Love Compability 2023</h1>
+
+    <form class="obid">
+        Enter your name: <input type="text" placeholder="Your Name" id="place"/><br/>
+Enter their name: <input type="text" placeholder="Their Name" id="place"/><br/>
+<button onclick="love()">Check Compatibility</button>
+    </form>
+
+</body>
+</html>
